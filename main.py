@@ -4,7 +4,7 @@ from datetime import datetime
 import sqlite3
 import logging
 import os
-
+from flask import Flask
 
 # Устанавливаем уровень логирования
 logging.basicConfig(level=logging.DEBUG)
